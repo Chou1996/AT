@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="test.Create_Customer">
+        <methods>
+          <include name="executionstart"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="captureScreenshotOnFailure"/>
+          <include name="create__customner_"/>
+        </methods>
+      </class> <!-- test.Create_Customer -->
+      <class name="test.Actitime_login_logout">
+        <methods>
+          <include name="login_logout"/>
+          <include name="executionstart"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="captureScreenshotOnFailure"/>
+        </methods>
+      </class> <!-- test.Actitime_login_logout -->
+      <class name="test.Create_Type_of_work">
+        <methods>
+          <include name="executionstart"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="create_new_work"/>
+          <include name="captureScreenshotOnFailure"/>
+        </methods>
+      </class> <!-- test.Create_Type_of_work -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
