@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Failed suite [Failed suite [Default suite]]]" guice-stage="DEVELOPMENT">
+  <test parallel="none" name="Default test(failed)(failed)(failed)">
+    <classes>
+      <class name="test.Actitime_login_logout">
+        <methods>
+          <include name="executionstart"/>
+          <include name="setup"/>
+          <include name="logintoapp"/>
+          <include name="login_logout"/>
+        </methods>
+      </class> <!-- test.Actitime_login_logout -->
+    </classes>
+  </test> <!-- Default test(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Default suite]]] -->
